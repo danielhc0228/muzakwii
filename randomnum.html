@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Random Number</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+   <link rel="manifest" href="fav/site.webmanifest">
+   <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#603cba">
+   <meta name="theme-color" content="#ffffff">
+   <link rel="stylesheet" type="text/css" href="stylesrandomnum.css">
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="randomcolour.html">Random Colour</a>
+    <a href="randomnum.html">Random Number</a>
+    <a href="randomdice.html">Random Dice</a>
+    <a href="javascript:void(0)" class="subnav" onclick="toggleSubNav()">Minigames</a>
+    <div id="subNavContent" class="subnav-content">
+        <a href="numguess.html">Number Guessing Game</a>
+        <a href="tictactoe.html">Tic Tac Toe</a>
+        <a href="memory.html">Memory Card Game</a>
+    </div>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="topleft">&#9776; Menu</span>
+  <div class="content">
+    <h2>Click to get a number from 1 to 10</h2>
+    <h1>
+      <button id="genNewNum">Number</button>
+      <p id="Numtext">‎</p>
+    </h1>
+    
+    <h2>Click to get a number from
+        <input type="number" id="min_value" placeholder="Min Value"> 
+        to
+        <input type="number" id="max_value" placeholder="Max Value">
+    </h2>
+    <h1>
+        <button id="genNewNum2">Number</button> 
+        <p id="Numtext2">‎</p>
+    </h1>
+  </div>
+  <script src="scriptNum.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://muzakwii.online/</loc>
+  <lastmod>2023-07-05T02:29:45+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://muzakwii.online/numguess.html</loc>
+  <lastmod>2023-07-05T02:29:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://muzakwii.online/tictactoe.html</loc>
+  <lastmod>2023-07-05T02:29:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://muzakwii.online/memory.html</loc>
+  <lastmod>2023-07-05T02:29:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://muzakwii.online/index.html</loc>
+  <lastmod>2023-07-05T02:29:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://muzakwii.online/randomcolour.html</loc>
+  <lastmod>2023-07-05T02:29:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://muzakwii.online/randomnum.html</loc>
+  <lastmod>2023-07-05T02:29:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://muzakwii.online/randomdice.html</loc>
+  <lastmod>2023-07-05T02:29:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

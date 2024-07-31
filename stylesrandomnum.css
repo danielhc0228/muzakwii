@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #739dce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  position: relative;
+  overflow: hidden;
+  text-align: center; /* Align content in the middle */
+}
+
+h1 {
+  padding: 1rem 2rem;
+  text-align: center;
+  margin: 0; /* Remove default margin */
+}
+
+#genNewNum, #genNewNum2 {
+  margin-bottom: 1rem;
+}
+
+span {
+  display: block;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: monospace;
+}
+
+input[type=number] {    
+    padding-top: 3px;
+    padding-bottom: 2.5px;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+
+button {
+  position: relative;
+  padding: 15px 50px;
+  color: #ffffff;
+  background-color: #162377;
+  border: none;
+  font-size: 20px;
+  border-radius: 20px; 
+  box-shadow: 1px 3px #50514F;
+  outline: none;
+  transition: .3s; 
+}
+
+button:hover{
+  background: #50514F;
+  outline: none;
+  cursor: pointer;
+}
+
+button:active {
+  background: #50514F;
+  transform: translateY(15px);
+}
+
+@media (max-width: 767px) {
+  /* Styles for mobile devices */
+
+  button:hover {
+    background: #162377;
+  }
+  button:active {
+    background: #50514F;
+  }
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.topleft {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#subNavContent {
+  display: none;
+}
+  
+.subnav-content {
+  display: none;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
+.sidenav .subnav-content a {
+  font-size: 1rem;
+}
+
+.sidenav .subnav {
+  position: relative;
+}
+
+.sidenav .subnav:after {
+  content: '\203A';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sidenav .subnav:hover:after {
+  content: '\2039';
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+

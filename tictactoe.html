@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic Tac Toe</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+        <link rel="manifest" href="fav/site.webmanifest">
+        <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#603cba">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="stylestic.css">
+    </head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="randomcolour.html">Random Colour</a>
+        <a href="randomnum.html">Random Number</a>
+        <a href="randomdice.html">Random Dice</a>
+        <a href="javascript:void(0)" class="subnav" onclick="toggleSubNav()">Minigames</a>
+        <div id="subNavContent" class="subnav-content">
+            <a href="numguess.html">Number Guessing Game</a>
+            <a href="tictactoe.html">Tic Tac Toe</a>
+            <a href="memory.html">Memory Card Game</a>
+        </div>
+      </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="topleft">&#9776; Menu</span>
+    <div class="content">
+        <div class="wrapper">
+            <div class="container">
+                <button class="button-option"></button>
+                <button class="button-option"></button>
+                <button class="button-option"></button>
+                <button class="button-option"></button>
+                <button class="button-option"></button>
+                <button class="button-option"></button>
+                <button class="button-option"></button>
+                <button class="button-option"></button>
+                <button class="button-option"></button>
+            </div>
+            <button id="restart">Restart</button>
+        </div>
+    </div>
+    <div class="popup hide">
+        <div id="mySidenav1" class="sidenav1">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="randomcolour.html">Random Colour</a>
+            <a href="randomnum.html">Random Number</a>
+            <a href="randomdice.html">Random Dice</a>
+            <a href="javascript:void(0)" class="subnav1" onclick="toggleSubNav1()">Minigames</a>
+            <div id="subNavContent1" class="subnav-content1">
+                <a href="numguess.html">Number Guessing Game</a>
+                <a href="tictactoe.html">Tic Tac Toe</a>
+                <a href="memory.html">Memory Card Game</a>
+            </div>
+          </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav1()" class="topleft">&#9776; Menu</span>
+        <p id="message">Sample Message</p>
+        <div class="button-group">
+            <button id="new-game">New Game</button>
+            <button id="home" onclick="window.location.href='index.html'">Home</button>
+        </div>
+   </div>
+   
+    <!-- Script -->
+    <script src="scripttic.js"></script>
+</body>
+</html>

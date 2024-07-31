@@ -1,0 +1,2 @@
+User-agent: *Allow:/
+Sitemap:https://muzakwii.online/sitemap.xml

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Memory Card Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+  <link rel="manifest" href="fav/site.webmanifest">
+  <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" type="text/css" href="stylesmemory.css">
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="randomcolour.html">Random Colour</a>
+    <a href="randomnum.html">Random Number</a>
+    <a href="randomdice.html">Random Dice</a>
+    <a href="javascript:void(0)" class="subnav" onclick="toggleSubNav()">Minigames</a>
+    <div id="subNavContent" class="subnav-content">
+        <a href="numguess.html">Number Guessing Game</a>
+        <a href="tictactoe.html">Tic Tac Toe</a>
+        <a href="memory.html">Memory Card Game</a>
+    </div>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="topleft">&#9776; Menu</span>
+  <div id="difficultySelection">
+    <h2>Select Difficulty:</h2>
+    <select id="difficultySelect">
+      <option value="easy">Easy</option>
+      <option value="normal">Normal</option>
+      <option value="hard">Hard</option>
+    </select>
+    <button id="startButton">Start Game</button>
+  </div>
+  <div id="gameContent">
+    <!-- Existing card game content here -->
+    <div class="wrapper">
+      <ul class="cards">
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/que_icon.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img id="imageid1" src="" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/que_icon.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img id="imageid2" src="" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/que_icon.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img id="imageid3" src="" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/que_icon.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img id="imageid4" src="" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/que_icon.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img id="imageid5" src="" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/que_icon.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img id="imageid6" src="" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/que_icon.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img id="imageid5" src="" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/que_icon.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img id="imageid6" src="" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/que_icon.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img id="imageid1" src="" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/que_icon.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img id="imageid2" src="" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/que_icon.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img id="imageid3" src="" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="images/que_icon.svg" alt="icon">
+          </div>
+          <div class="view back-view">
+            <img id="imageid4" src="" alt="card-img">
+          </div>
+        </li>
+        <div class="details">
+          <p class="time">Time: <span><b>30</b>s</span></p>
+          <p class="flips">Flips: <span><b>0</b></span></p>
+          <button>New Game</button>
+        </div>
+      </ul>
+    </div>  
+  </div>
+  <script src="scriptmemory.js"></script>
+</body>
+</html>
